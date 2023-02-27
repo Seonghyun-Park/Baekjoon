@@ -1,6 +1,6 @@
 # 단어 공부
-word = input().upper()
-word_list = list(set(word))
+word = input().upper() # 전체 문자를 대문자로 변환
+word_list = list(set(word)) # set을 사용하여 중복된 문자 제거
 
 cnt = []
 for i in word_list:
